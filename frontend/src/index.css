@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-width: 400px;
+  
+
+}
+.container{
+  display: flex;
+  background-color:rgb(8, 21, 26);
+  color: #fff;
+  /* margin-left:4px; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+}
+
+.p1{
+  margin-top: 50px;
+  font-weight: 950;
+  font-size: xx-large;
+  font-stretch: ultra-condensed;
+}
+
+.sign-btn{
+  margin-right: 30px;
+  width: 100px;
+  height: 50px;
+  font-weight:500;
+  font-size: large;
+  background-color: #ff6116;
+  border-radius: 5px;
+}
+.login-btn{
+  margin-right: 30px;
+  font-weight:500;
+  font-size: large;
+  color: #ff6116;
+}
+
+.para-heading{
+       font-size: xx-large;
+       font-weight: bold;
+       /* margin: 0; */
+
+}
+.Url{
+  font-size: large;
+  font-weight: bold;
+  
+}
+
+.btn-short{
+  border: 1px solid rgb(136,136,247);
+  /* opacity: 0.66; */
+  color:white ;
+  padding:15px;
+  margin:12;
+font-size: large;
+   background-color: rgb(136, 136, 247);
+   border-radius: 10px;
+   margin-bottom: 12px;
+   transition: all 2s;
+}
+
+.btn-short:hover{
+    cursor:no-drop;
+    background-color: rgb(60, 60, 183);
+}
+.input-a{
+  width: 100vh;
+  padding:10px;
+  border:1px solid red;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.para-p{
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 7px;
+}
+.paramain{
+  margin-top: 50px;
+  color:#ff6116;
+  font-weight: bold;
+  font-size: 17px;
+ text-wrap: nowrap;
+ font-family: "ProximaNova ExtraBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* text-shadow: 4px; */
+}
+.paramain1{
+  /* color:#ff6116; */
+ 
+  font-size: 38px;
+ text-wrap: nowrap;
+ font-family: "ProximaNova ExtraBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* text-shadow: 4px; */
+}
+
+.p1{
+  margin-bottom: 10px;
+  font-size: 55px;
+  line-height: 50px;
+}
+
+.p11{
+  margin-top: 10px;
+  margin-bottom: 10px;
+    font-size: 55px;
+    line-height: 50px;
+   color:#ff6116;
+   font-weight: bold;
+}
