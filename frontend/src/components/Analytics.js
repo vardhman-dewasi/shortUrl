@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
   async function getAnalytics(e) {
     e.preventDefault();
-    const url = `http://localhost:4000/url/analytics/${shortenedUrl}`;
+    const url = `https://shorturl-xa35.onrender.com/url/analytics/${shortenedUrl}`;
 
     try {
       const response = await fetch(url, {
