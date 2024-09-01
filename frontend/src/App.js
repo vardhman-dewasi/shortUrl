@@ -9,7 +9,7 @@ import Analytics from './components/Analytics'
 import Shortlink from './components/Shortlink';
 
 function App() {
-  const [urlValue, setUrlValue] = useState('www.google.com');
+  const [urlValue, setUrlValue] = useState('');
   const [shortenedUrl, setShortenedUrl] = useState('');
   
   return (
