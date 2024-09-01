@@ -8,7 +8,7 @@ function urlChangeHandle(e) {
   
   async function handleSubmitUrl(e) {
     e.preventDefault();
-    const url = 'http://localhost:4000/url/create';
+    const url = 'https://shorturl-xa35.onrender.com/url/create';
     try {
       const response = await fetch(url, {
         method: 'POST',
