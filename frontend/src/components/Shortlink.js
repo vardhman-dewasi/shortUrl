@@ -80,7 +80,9 @@ function urlChangeHandle(e) {
 
         {shortenedUrl && (
           <div>
-            <p className="text-lg font-medium text-red-500">Shortened URL: `http://localhost:4000/url/{shortenedUrl}`</p>
+            <p className="text-lg font-medium text-red-500">
+  Shortened URL: <a href={`https://shorturl-xa35.onrender.com/url/${shortenedUrl}`}>`https://shorturl-xa35.onrender.com/url/${shortenedUrl}`</a>
+</p>
           </div>
         )
         }
